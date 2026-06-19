@@ -2,7 +2,7 @@
 
 Trilha principal: **Node.js com TypeScript + Python**, com foco em fundamentos de programação e, mais adiante, no modelo **Spec-Driven Developer**.
 
-> Este arquivo é um resumo de navegação. O conteúdo completo de cada fase — com exercícios recomendados, projetos e critérios para avançar — está em `.tutor/curriculo/`. A fonte original deste roadmap (com explicações mais longas) está em `roadmap.md`, na raiz do repositório.
+> Este arquivo é um resumo de navegação. O conteúdo completo de cada fase — com exercícios recomendados, projetos e critérios para avançar — está em `.tutor/curriculo/`.
 
 ## A tese central
 
@@ -40,11 +40,9 @@ Veja o mapa completo em [.tutor/curriculo/mapa-geral.md](.tutor/curriculo/mapa-g
 
 ## Regras de ouro para estudar na era da IA
 
-1. **No início, faça no modo hard** — tente implementar manualmente antes de pedir ajuda da IA.
-2. **Código gerado não é código aprovado** — todo código de IA passa por triagem humana.
-3. **Fundamentos antes de frameworks** — frameworks mudam, lógica e estrutura de dados permanecem.
-
-Veja a explicação completa dessas regras em `roadmap.md`, seção 4.
+1. **No início, faça no modo hard** — tente implementar manualmente antes de pedir ajuda da IA. Use a IA para explicar conceitos, dar analogias, criar exercícios e revisar seu raciocínio; evite usá-la para gerar tudo sem você tentar ou pular fundamentos.
+2. **Código gerado não é código aprovado** — todo código de IA passa por triagem humana: ele resolve o problema real? Cobre casos de erro? Tem testes? É simples o bastante?
+3. **Fundamentos antes de frameworks** — frameworks mudam, lógica, estrutura de dados, tipagem, arquitetura e testes permanecem.
 
 ## Rotina semanal sugerida
 
@@ -69,4 +67,9 @@ Ajuste a intensidade conforme seu tempo disponível — o importante é manter c
 
 ## Depois da base
 
-Depois de concluir a Fase 12, escolha um foco estratégico: backend, dados e automação, IA aplicada a software, ou arquitetura. Veja sugestões detalhadas em `roadmap.md`, seção 26.
+Depois de concluir a Fase 12, escolha um foco estratégico:
+
+- **Backend** — aprofunde NestJS, FastAPI, PostgreSQL avançado, Redis, filas, mensageria, Docker, autenticação avançada, observabilidade.
+- **Dados e automação** — aprofunde Pandas, SQL, ETL, APIs, automações, notebooks, pipelines, integrações com IA.
+- **IA aplicada a software** — aprofunde RAG, embeddings, agentes, MCP, avaliação de respostas, ferramentas de coding agent.
+- **Arquitetura** — aprofunde Clean Architecture, DDD, arquitetura hexagonal, event-driven architecture, escalabilidade.

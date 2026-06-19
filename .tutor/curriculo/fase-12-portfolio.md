@@ -33,7 +33,7 @@ Publicar pelo menos 3 dos 5 projetos acima em repositórios próprios no GitHub,
 ## Como a IA deve ajudar nesta fase
 
 - Revisar READMEs e documentação dos projetos do portfólio, sugerindo o que falta para ficar claro a um leitor externo.
-- Ajudar o aluno a escolher um foco estratégico para os próximos passos (backend, dados, IA aplicada, arquitetura) — veja `roadmap.md`, seção 26.
+- Ajudar o aluno a escolher um foco estratégico para os próximos passos (backend, dados e automação, IA aplicada a software, ou arquitetura) — veja `ROADMAP.md`, seção "Depois da base".
 
 ## Como a IA NÃO deve ajudar nesta fase
 
