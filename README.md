@@ -89,7 +89,7 @@ A IA vai criar uma pasta em `estudos/fase-01-logica/...` com tudo que você prec
 
 ### 6.4. Resolver os exercícios
 
-Resolva manualmente, em Python e/ou TypeScript, colocando seus arquivos dentro de `minhas-respostas/`. Tente sem IA primeiro. Se travar, use a IA para se explicar — não para resolver por você. Veja os prompts recomendados em [GUIA_DO_ESTUDANTE.md](GUIA_DO_ESTUDANTE.md).
+Resolva manualmente, em Python e/ou TypeScript, colocando seus arquivos dentro de `minhas-respostas/`. Tente sem IA primeiro. Se travar, use a IA para te explicar — não para resolver por você. Veja os prompts recomendados em [GUIA_DO_ESTUDANTE.md](GUIA_DO_ESTUDANTE.md).
 
 ### 6.5. Pedir revisão
 
