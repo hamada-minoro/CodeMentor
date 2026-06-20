@@ -1,4 +1,4 @@
-# Exercícios — [Nome do Tópico]
+# Exercícios — [Nome do Módulo]
 
 > Não use IA para gerar a solução destes exercícios. Tente primeiro. Se travar, peça à IA para explicar o conceito, não para resolver.
 

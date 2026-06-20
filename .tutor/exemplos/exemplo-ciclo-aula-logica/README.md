@@ -1,7 +1,7 @@
 # Variáveis, Entrada, Processamento e Saída
 
-**Fase:** 1 — Lógica e pensamento computacional
-**Tópico:** 01
+**Módulo:** 01 — Lógica e pensamento computacional
+**Aula:** 01
 
 ## Objetivo de aprendizado
 

@@ -1,6 +1,6 @@
 # Revisão — Variáveis, Entrada, Processamento e Saída
 
-> Este é um exemplo de como a IA deve preencher este arquivo depois de revisar respostas reais do aluno. Em um tópico real, o conteúdo abaixo seria gerado a partir dos arquivos que estiverem em `minhas-respostas/`.
+> Este é um exemplo de como a IA deve preencher este arquivo depois de revisar respostas reais do aluno. Em um módulo real, o conteúdo abaixo seria gerado a partir dos arquivos que estiverem em `minhas-respostas/`.
 
 ## Pontos fortes
 
@@ -28,4 +28,4 @@
 
 ## Conclusão
 
-O aluno está pronto para avançar com uma consolidação focada em conversão de tipos e tratamento do caso de divisão por zero antes de seguir para o próximo tópico (condicionais).
+O aluno está pronto para avançar com uma consolidação focada em conversão de tipos e tratamento do caso de divisão por zero antes de seguir para o próximo módulo (condicionais).

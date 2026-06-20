@@ -1,4 +1,4 @@
-# Consolidação — [Nome do Tópico]
+# Consolidação — [Nome do Módulo]
 
 ## Por que este exercício foi escolhido
 

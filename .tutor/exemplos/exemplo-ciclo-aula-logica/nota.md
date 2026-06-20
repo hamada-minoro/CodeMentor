@@ -19,4 +19,4 @@ Nota 7–8: resolve bem, explica o raciocínio e comete poucos erros conceituais
 
 ## Recomendação
 
-Fazer a consolidação em `consolidacao.md` antes de avançar para o próximo tópico.
+Fazer a consolidação em `consolidacao.md` antes de avançar para o próximo módulo.

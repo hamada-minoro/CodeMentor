@@ -1,4 +1,4 @@
-# Rubrica de Lógica (Fase 1)
+# Rubrica de Lógica (Módulo 01)
 
 Use esta rubrica para exercícios de lógica e pensamento computacional, antes do aluno ter contato profundo com tipagem ou arquitetura.
 

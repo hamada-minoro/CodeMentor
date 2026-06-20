@@ -1,4 +1,4 @@
-# Revisão — [Nome do Tópico]
+# Revisão — [Nome do Módulo]
 
 ## Pontos fortes
 

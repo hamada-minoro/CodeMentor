@@ -1,6 +1,6 @@
 # `workspace-aluno/`
 
-Este é o seu espaço livre — para criar códigos, testes e estudos fora do ciclo formal de tópicos.
+Este é o seu espaço livre — para criar códigos, testes e estudos fora do ciclo formal de módulos.
 
 ## Como usar
 

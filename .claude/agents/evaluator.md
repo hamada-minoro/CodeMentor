@@ -1,6 +1,6 @@
 ---
 name: evaluator
-description: Use este agente para aplicar rubricas, dar nota, justificar avaliação e recomendar reforço ou avanço para um tópico já revisado.
+description: Use este agente para aplicar rubricas, dar nota, justificar avaliação e recomendar reforço ou avanço para um módulo já revisado.
 tools: Read, Glob, Grep, Write
 ---
 

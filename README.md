@@ -1,159 +1,135 @@
-# CodeMentor BR — Roadmap de Programação dos Fundamentos até o Spec-Driven Development
+# CodeMentor BR
 
-Um repositório educacional open source para aprender programação do zero com apoio de IA — sem cair em "vibe coding".
+#### *Dica inicial, quando no vs code, abra esse arquivo apertando com o botão direito em cima dele e escolhendo a opção 'Abrir Visualização', sua leitura será mais prazerosa dessa forma.
 
-## 1. O que é este projeto
+**Aprenda programação com apoio de IA, sem virar dependente dela.**
 
-Este repositório é um **tutor de programação guiado por IA**. Ele não ensina sozinho: ele organiza o caminho, gera exercícios, revisa suas respostas e te acompanha do primeiro "Olá, mundo" até você conseguir planejar e conduzir uma IA para construir software de verdade.
+Estudar programação com IA pode acelerar muito o aprendizado, mas também pode criar um problema: o aluno copia respostas, pula fundamentos e chega em projetos maiores sem saber explicar, corrigir ou avaliar o próprio código.
 
-A trilha principal usa **Node.js com TypeScript** e **Python**, e termina te apresentando ao **Spec-Driven Development** — o jeito profissional de trabalhar com IA: especificar antes de codar.
+O **CodeMentor BR** transforma a IA do seu editor em um tutor: ela explica, gera exercícios, revisa suas respostas, dá nota com critério e só então sugere o próximo passo — mas nunca entrega a solução antes da sua tentativa.
 
-## 2. Para quem é este repositório
+> Este projeto não te ensina a pedir código pronto para a IA. Ele te ensina a aprender programação com IA e, depois, a usar IA como um desenvolvedor de verdade.
 
-- Para quem está começando em programação do zero ou quase do zero.
-- Para quem já tentou estudar sozinho e se perdeu entre tutoriais soltos.
-- Para quem usa (ou quer usar) IA para estudar, mas não sabe como evitar virar dependente dela.
-- Para quem tem acesso a no mínimo uma IA dentro do VS Code: GitHub Copilot Free, Claude Code/Claude Pro, ou um modelo local via Ollama.
+---
 
-Não é para quem busca um curso de "programação em 3 meses" ou um gerador automático de projetos prontos.
+## Prompt inicial — como começar
 
-## 3. O que você vai aprender
+Cole um dos dois prompts abaixo na sua IA (GitHub Copilot, Claude Code, etc.).
 
-- Lógica de programação e pensamento computacional.
-- Fundamentos de TypeScript e Python, em paralelo.
-- Tipagem, modelagem de dados e paradigmas de programação.
-- Orientação a objetos sem exagero.
-- Estruturas de dados, algoritmos e noções de Big O.
-- Backend com Node.js/TypeScript e Python (FastAPI).
-- Banco de dados relacional, testes e arquitetura de software.
-- Como usar IA como tutor, revisor e, por fim, executora supervisionada de um plano — o modelo **Spec-Driven Developer**.
+### Opção 1 — Nunca programei (ou quero começar do zero)
 
-Veja o detalhamento completo em [ROADMAP.md](ROADMAP.md).
+```txt
+Estou começando a estudar programação. Leia com atenção este projeto, começando pelo
+README.md. Vou começar pelo Módulo 00, Aula 1. Faça o necessário para eu começar e crie
+um arquivo Markdown prático com um passo a passo resumido de como estudar.
+```
 
-## 4. As duas teses centrais
+### Opção 2 — Já tenho alguma base em programação
 
-**Fundamentos antes de frameworks.** Frameworks mudam a cada poucos anos. Lógica, tipos, estrutura de dados, testes e arquitetura permanecem. Por isso este repositório força você a entender o "porquê" antes de te deixar usar atalhos.
+```txt
+Já tenho experiência básica em programação. Antes de começar, aplique o questionário de
+nivelamento deste projeto para descobrir em qual módulo do roadmap eu devo começar,
+registre o resultado no meu progresso e inicie o módulo indicado.
+```
 
-**IA como tutor, não como muleta.** Em todas as fases iniciais, a IA aqui é instruída a te explicar, te questionar e te revisar — não a resolver exercícios por você. Só depois que você tiver base, o repositório te ensina a usar IA como acelerador profissional, dentro de um fluxo de especificação, planejamento e revisão.
+---
 
-## 5. Por onde começar (sem se perder na quantidade de pastas)
+## Documentação
 
-Você vai ver várias pastas neste repositório. A maioria delas é **infraestrutura para a IA funcionar como tutor** — você não precisa abrir nem entender essas pastas para estudar. São elas:
+Depois deste README, leia os guias em `docs/` nesta ordem:
 
-- `.tutor/` — instruções que qualquer IA lê para saber como te ensinar. Você não edita isso.
-- `.claude/` — agents e skills específicos para quem usa Claude Code. Você não edita isso.
+| Ordem | Arquivo | O que explica |
+|---|---|---|
+| 1 | [docs/COMO_USAR_O_TUTOR.md](docs/COMO_USAR_O_TUTOR.md) | O ciclo prático do dia a dia: iniciar aula, estudar, resolver, pedir revisão, avançar. |
+| 2 | [docs/ROADMAP.md](docs/ROADMAP.md) | Os 14 módulos do currículo, em ordem, e o que esperar de cada um. |
+| 3 | [docs/SETUP_VSCODE_IA.md](docs/SETUP_VSCODE_IA.md) | Como configurar o VS Code e qual IA usar (gratuita ou paga). |
+| 4 | [docs/GUIA_DO_ESTUDANTE.md](docs/GUIA_DO_ESTUDANTE.md) | Onde colocar arquivos, como interpretar notas, dicas gerais. |
+| 5 | [docs/GUIA_SPEC_DRIVEN_DEVELOPER.md](docs/GUIA_SPEC_DRIVEN_DEVELOPER.md) | Como trabalhar com `spec.md`/`plan.md`/`tasks.md` (a partir do Módulo 07~08). |
 
-As pastas que você de fato vai usar no dia a dia são:
+Os arquivos internos que orientam a própria IA estão em `.tutor/` — você não precisa editá-los para estudar.
 
-| Pasta | Para que serve |
+---
+
+## Para quem é este projeto?
+
+- Estudantes que estão começando em programação ou já têm alguma base.
+- Pessoas que querem aprender com IA, mas sem pular fundamentos.
+- Professores, mentores ou familiares que querem orientar alguém no estudo de programação.
+
+## Como funciona o ciclo de estudo
+
+Cada aula do roadmap segue o mesmo ciclo: **a IA explica → gera exercícios → você tenta sozinho → a IA revisa sem entregar tudo de imediato → você corrige → recebe nota e feedback → consolida → só então avança.** Esse ciclo evita o uso passivo da IA. Veja o passo a passo completo em [docs/COMO_USAR_O_TUTOR.md](docs/COMO_USAR_O_TUTOR.md).
+
+---
+
+## Roadmap de aprendizado (resumo)
+
+**Python primeiro, sempre.** Dos Módulos 00 a 06, todo o conteúdo é só em Python. TypeScript e Node.js entram como módulo dedicado a partir do **Módulo 07** — incluindo como criar um projeto Node do zero e automatizar o scaffold de uma API com IA via `spec.md`.
+
+| Módulo | Tema |
 |---|---|
-| `estudos/` | Onde a IA cria cada tópico do roadmap, com teoria e exercícios |
-| `workspace-aluno/` | Seu espaço livre para testar código em Python e TypeScript |
-| `progresso/` | Seu diário de aprendizado e mapa de progresso |
-| `exemplos-projetos/` | Projetos de referência, incluindo um exemplo de Spec-Driven Development |
+| 00 | Ambiente, terminal e Git |
+| 01 | Lógica de programação (Python) |
+| 02 | Fundamentos de Python |
+| 03 | Tipagem e modelagem de dados (Python) |
+| 04 | Paradigmas de programação (Python) |
+| 05 | Orientação a objetos (Python) |
+| 06 | Estruturas de dados, algoritmos e Big O (Python) |
+| 07 | Node.js e TypeScript profissional |
+| 08 | Backend (Node/TypeScript + Python) |
+| 09 | Banco de dados |
+| 10 | Testes e qualidade |
+| 11 | Arquitetura de software |
+| 12 | IA profissional e Spec-Driven Development |
+| 13 | Portfólio |
 
-Se a quantidade de arquivos parecer assustadora no começo, relaxe: você só precisa interagir com as quatro pastas acima. O resto existe para a IA, não para você decorar.
+Detalhe completo de cada módulo (aulas, exercícios, critérios para avançar) em [docs/ROADMAP.md](docs/ROADMAP.md) e [.tutor/curriculo/mapa-geral.md](.tutor/curriculo/mapa-geral.md).
 
-## 6. Como começar
+---
 
-### 6.1. Clonar o repositório
+## Estrutura do repositório
 
-```bash
-git clone <url-do-seu-fork-ou-repo>
-cd codementor-br
+```txt
+CodeMentor/
+├── README.md            ← você está aqui
+├── CLAUDE.md             ← instruções para a IA (Claude Code)
+├── docs/                 ← guias práticos (leia na ordem da seção "Documentação")
+├── .tutor/               ← regras, currículo, templates e rubricas que a IA usa
+├── .claude/              ← skills e agents
+├── estudos/              ← onde a IA cria cada módulo/aula conforme você avança
+├── progresso/            ← diário de aprendizado e mapa de progresso
+└── exemplos-projetos/    ← referências de projetos de portfólio
 ```
 
-### 6.2. Abrir no VS Code
+Cada aula segue o padrão `estudos/modulo-XX-nome/aula-YY-nome/`, com `README.md`, `exercicios.md`, `minhas-respostas/`, `revisao.md`, `nota.md`, `consolidacao.md` e `diario.md`.
 
-```bash
-code .
+---
+
+## Como começar
+
+1. Instale o [VS Code](https://code.visualstudio.com/) e o [Git](https://git-scm.com/), e clone este repositório.
+2. Abra a pasta no VS Code (`code .`).
+3. Configure sua IA seguindo [docs/SETUP_VSCODE_IA.md](docs/SETUP_VSCODE_IA.md) (GitHub Copilot Free para começar, ou Claude Pro + Claude Code se quiser investir).
+4. Cole um dos prompts da seção "Prompt inicial" acima.
+
+---
+
+## Filosofia do projeto
+
+Um estudante que aprende apenas copiando código gerado por IA terá dificuldade quando precisar corrigir bugs, entender erros, adaptar soluções ou explicar decisões técnicas. Por isso:
+
+> Use IA para acelerar o aprendizado, mas não para fugir do raciocínio.
+
+Isso não é um curso milagroso, nem um gerador de código pronto, nem uma promessa de emprego rápido — é um método para estudar programação com organização, registrar progresso e usar IA como ferramenta profissional, não como atalho.
+
+---
+
+## Contribuições
+
+Contribuições são bem-vindas: novos exercícios, melhorias no roadmap, rubricas, exemplos de projetos, correções de texto, adaptações para diferentes níveis de aluno.
+
+## Licença
+
+```txt
+MIT License
 ```
-
-Veja o guia completo de configuração em [SETUP_VSCODE_IA.md](SETUP_VSCODE_IA.md), que cobre três caminhos:
-
-- **Caminho A** — Gratuito: VS Code + GitHub Copilot Free.
-- **Caminho B** — Pago: Claude Pro + Claude Code.
-- **Caminho C** — IA local: Ollama + Continue (ou similar).
-
-### 6.3. Iniciar seu primeiro tópico
-
-Com a IA escolhida aberta no VS Code, peça:
-
-```text
-Leia `CLAUDE.md` e `.tutor/tutor-manifest.md`.
-Quero iniciar o tópico "variáveis, entrada, processamento e saída" da Fase 1.
-Crie a pasta de estudo, explique o conteúdo e gere exercícios sem gabarito.
-```
-
-A IA vai criar uma pasta em `estudos/fase-01-logica/...` com tudo que você precisa para estudar aquele tópico.
-
-### 6.4. Resolver os exercícios
-
-Resolva manualmente, em Python e/ou TypeScript, colocando seus arquivos dentro de `minhas-respostas/`. Tente sem IA primeiro. Se travar, use a IA para te explicar — não para resolver por você. Veja os prompts recomendados em [GUIA_DO_ESTUDANTE.md](GUIA_DO_ESTUDANTE.md).
-
-### 6.5. Pedir revisão
-
-```text
-Revise minhas respostas em
-estudos/fase-01-logica/topico-01-variaveis-entrada-processamento-saida/minhas-respostas/.
-Use a rubrica, aponte erros, dê nota e crie um exercício de consolidação.
-```
-
-A IA vai escrever `revisao.md` e `nota.md` dentro da pasta do tópico, e vai te propor um exercício extra em `consolidacao.md` caso você precise reforçar algo.
-
-### 6.6. Avançar
-
-```text
-Leia progresso/mapa-de-progresso.md e minhas últimas avaliações.
-Diga se estou pronto para avançar e sugira o próximo tópico.
-```
-
-A IA nunca avança automaticamente por você — você decide quando seguir.
-
-## 7. Estudando Python e TypeScript em paralelo
-
-Sempre que um tópico permitir, resolva o mesmo exercício nas duas linguagens. Isso te ajuda a separar "conceito de programação" de "sintaxe de uma linguagem específica" — uma das habilidades mais valiosas para trabalhar bem com IA depois.
-
-## 8. Registrando seu progresso
-
-Depois de cada revisão, vale a pena anotar em `progresso/diario-de-aprendizado.md` o que você aprendeu, o que travou e o que te surpreendeu. Esse diário também ajuda a IA a te dar contexto melhor nas próximas sessões.
-
-## 9. Exemplos de prompts prontos
-
-Você encontra uma lista completa em [.tutor/prompts/](. tutor/prompts/README.md), mas os mais usados no dia a dia são:
-
-```text
-Estou estudando [CONCEITO]. Explique de forma simples, com analogia e exemplo pequeno.
-Não resolva meus exercícios. Ao final, faça 3 perguntas para testar meu entendimento.
-```
-
-```text
-Estou com este erro: [COLE_O_ERRO]
-Não corrija diretamente. Explique o que significa, as causas prováveis e o que verificar, uma coisa por vez.
-```
-
-## 10. Aviso honesto sobre ferramentas
-
-Este repositório não depende de uma ferramenta de IA específica. Ele foi desenhado para funcionar com qualquer IA capaz de ler os arquivos em `.tutor/`.
-
-Preços, limites de uso e disponibilidade de planos gratuitos ou pagos (GitHub Copilot Free, Claude Pro, Ollama, etc.) mudam com frequência. Antes de decidir qual caminho seguir, consulte sempre a documentação oficial de cada ferramenta — não confie apenas no que está escrito aqui.
-
-Links de referência:
-
-- VS Code: https://code.visualstudio.com/
-- Git: https://git-scm.com/
-- Node.js: https://nodejs.org/
-- Python: https://www.python.org/
-- TypeScript: https://www.typescriptlang.org/docs/
-- GitHub Copilot: https://docs.github.com/en/copilot
-- Claude Code: https://docs.anthropic.com/en/docs/claude-code
-- Claude Code no VS Code: https://docs.anthropic.com/en/docs/claude-code/ide-integrations
-- Claude Code Skills: https://docs.anthropic.com/en/docs/claude-code/skills
-- Claude Code Subagents: https://docs.anthropic.com/en/docs/claude-code/sub-agents
-- Claude Pricing: https://claude.com/pricing
-- Ollama: https://ollama.com/
-- Continue: https://www.continue.dev/
-
-## 11. Licença e contribuição
-
-Este projeto é educacional e aberto a contribuições. Antes de abrir um PR, revise se sua mudança preserva a tese central: fundamentos primeiro, IA como tutor antes de IA como acelerador. Sugestões de novos tópicos, exercícios e correções de conteúdo são bem-vindas via issues ou pull requests.

@@ -1,14 +1,14 @@
-# Fase 12 — Portfólio e projetos finais
+# Módulo 13 — Portfólio e projetos finais
 
 **Duração sugerida:** contínua, conforme o aluno avança
 
-## Objetivo da fase
+## Objetivo do módulo
 
 Consolidar o aprendizado em projetos publicados que mostrem raciocínio — não apenas tela bonita.
 
 ## Pré-requisitos
 
-Fases 00 a 11 concluídas.
+Módulos 00 a 12 concluídos.
 
 ## Projetos recomendados
 
@@ -30,11 +30,11 @@ Publicar pelo menos 3 dos 5 projetos acima em repositórios próprios no GitHub,
 - [ ] Sabe justificar decisões técnicas.
 - [ ] Entrega ao menos um projeto publicado e documentado.
 
-## Como a IA deve ajudar nesta fase
+## Como a IA deve ajudar neste módulo
 
 - Revisar READMEs e documentação dos projetos do portfólio, sugerindo o que falta para ficar claro a um leitor externo.
-- Ajudar o aluno a escolher um foco estratégico para os próximos passos (backend, dados e automação, IA aplicada a software, ou arquitetura) — veja `ROADMAP.md`, seção "Depois da base".
+- Ajudar o aluno a escolher um foco estratégico para os próximos passos (backend, dados e automação, IA aplicada a software, ou arquitetura) — veja `docs/ROADMAP.md`, seção "Depois da base".
 
-## Como a IA NÃO deve ajudar nesta fase
+## Como a IA NÃO deve ajudar neste módulo
 
-- Não construa o projeto final pelo aluno. Esta fase existe justamente para o aluno demonstrar autonomia.
+- Não construa o projeto final pelo aluno. Este módulo existe justamente para o aluno demonstrar autonomia.

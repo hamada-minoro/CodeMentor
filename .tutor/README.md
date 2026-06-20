@@ -9,9 +9,9 @@ Esta pasta é a "constituição" pedagógica do projeto. Ela contém as instruç
 - `tutor-manifest.md` — arquivo central, lido por qualquer IA antes de te orientar.
 - `regras-de-comportamento-da-ia.md` — regras detalhadas de comportamento.
 - `principios-pedagogicos.md` — fundamentos pedagógicos do projeto.
-- `fluxo-de-estudo.md` — o ciclo completo de estudo por tópico.
-- `curriculo/` — o roadmap dividido em 13 fases, cada uma em um arquivo.
+- `fluxo-de-estudo.md` — o ciclo completo de estudo por módulo.
+- `curriculo/` — o roadmap dividido em 14 módulos (00 a 13), cada um em um arquivo.
 - `prompts/` — prompts prontos para você copiar e colar na sua IA.
-- `templates/` — modelos de arquivo usados em cada tópico de estudo.
+- `templates/` — modelos de arquivo usados em cada aula de estudo.
 - `rubricas/` — critérios objetivos de avaliação.
-- `exemplos/` — um exemplo funcional completo de um ciclo de tópico.
+- `exemplos/` — um exemplo funcional completo de um ciclo de aula.

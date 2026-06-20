@@ -1,6 +1,6 @@
 # Rubrica de Spec-Driven Development
 
-Use esta rubrica a partir da Fase 11, ao avaliar o trabalho do aluno com `spec.md`, `plan.md`, `tasks.md`, `tests.md` e `review.md`.
+Use esta rubrica a partir do Módulo 12, ao avaliar o trabalho do aluno com `spec.md`, `plan.md`, `tasks.md`, `tests.md` e `review.md`.
 
 | Critério | Pontos |
 |---|---|

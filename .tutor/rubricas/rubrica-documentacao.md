@@ -1,6 +1,6 @@
 # Rubrica de Documentação
 
-Use esta rubrica para avaliar READMEs e documentação de projetos (a partir da Fase 02, quando projetos passam a ter README próprio).
+Use esta rubrica para avaliar READMEs e documentação de projetos (a partir do Módulo 02, quando projetos passam a ter README próprio).
 
 | Critério | Pontos |
 |---|---|

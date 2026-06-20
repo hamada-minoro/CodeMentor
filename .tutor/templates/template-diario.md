@@ -1,4 +1,4 @@
-# Diário — [Nome do Tópico]
+# Diário — [Nome do Módulo]
 
 **Data:** [data]
 

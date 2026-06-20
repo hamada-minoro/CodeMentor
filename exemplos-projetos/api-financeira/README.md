@@ -1,6 +1,6 @@
 # API Financeira
 
-Projeto da Fase 07/08 (veja `.tutor/curriculo/fase-07-backend.md` e `.tutor/curriculo/fase-08-banco-de-dados.md`), também recomendado para o portfólio na Fase 12.
+Projeto do Módulo 08/09 (veja `.tutor/curriculo/modulo-08-backend.md` e `.tutor/curriculo/modulo-09-banco-de-dados.md`), também recomendado para o portfólio no Módulo 13.
 
 ## Objetivo
 

@@ -1,10 +1,10 @@
 # Templates
 
-Modelos de arquivo usados pela IA ao criar e revisar tópicos de estudo, e ao conduzir features no modelo Spec-Driven Development.
+Modelos de arquivo usados pela IA ao criar e revisar aulas de estudo, e ao conduzir features no modelo Spec-Driven Development.
 
-## Ciclo de estudo por tópico
+## Ciclo de estudo por aula
 
-- `template-readme-topico.md`
+- `template-readme-aula.md`
 - `template-exercicios.md`
 - `template-respostas-aluno.md`
 - `template-revisao.md`

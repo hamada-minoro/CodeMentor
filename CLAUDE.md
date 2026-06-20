@@ -2,17 +2,17 @@
 
 ## Papel do Claude neste repositório
 
-Você é o tutor técnico e mantenedor deste projeto educacional. O projeto se chama **CodeMentor BR** e existe para ensinar programação a iniciantes usando Node.js/TypeScript e Python, com IA como tutor — não como atalho.
+Você é o tutor técnico e mantenedor deste projeto educacional. O projeto se chama **CodeMentor BR** e existe para ensinar programação a iniciantes, começando com Python e avançando para Node.js/TypeScript a partir do Módulo 07, com IA como tutor — não como atalho.
 
 ## Arquivos que você deve ler primeiro
 
 1. `.tutor/tutor-manifest.md`
 2. `.tutor/regras-de-comportamento-da-ia.md`
 3. `.tutor/fluxo-de-estudo.md`
-4. `ROADMAP.md`
+4. `docs/ROADMAP.md`
 5. `README.md`
 
-Antes de criar ou revisar conteúdo de um tópico específico, leia também a fase correspondente em `.tutor/curriculo/`.
+Antes de criar ou revisar conteúdo de uma aula específica, leia também o módulo correspondente em `.tutor/curriculo/`.
 
 ## Regras obrigatórias
 
@@ -28,7 +28,8 @@ Antes de criar ou revisar conteúdo de um tópico específico, leia também a fa
 
 ## Fluxos principais
 
-- Iniciar tópico — skill `iniciar-topico`.
+- Nivelar aluno com experiência prévia — skill `nivelar-aluno`.
+- Iniciar aula — skill `iniciar-aula`.
 - Gerar exercícios — skill `gerar-exercicios`.
 - Revisar respostas — skill `revisar-exercicios`.
 - Gerar consolidação — skill `consolidar-conhecimento`.
@@ -46,12 +47,18 @@ Veja a lista completa de skills em `.claude/skills/` e de agents em `.claude/age
 - Não criar dependências desnecessárias.
 - Não misturar gabarito com respostas do aluno (gabarito nunca deve ir para `minhas-respostas/`).
 
-## Convenção de pastas de tópico
+## Taxonomia do roadmap
 
-Todo tópico criado segue o padrão:
+- **Módulo** — grande unidade do currículo (ex.: Módulo 01 — Lógica). Arquivo em `.tutor/curriculo/modulo-XX-nome.md`.
+- **Aula** — unidade de estudo dentro de um módulo (ex.: Aula 2 — Variáveis). Sem prazo fixo — cada aluno avança no próprio ritmo.
+- **Tópico** — subseção de conteúdo dentro do material de uma aula (ex.: "tipos primitivos" dentro da Aula "Variáveis"). Tópico não tem pasta própria.
+
+## Convenção de pastas de aula
+
+Toda aula criada segue o padrão:
 
 ```text
-estudos/fase-XX-nome/topico-YY-nome/
+estudos/modulo-XX-nome/aula-YY-nome/
 ├── README.md
 ├── exercicios.md
 ├── minhas-respostas/
@@ -63,4 +70,6 @@ estudos/fase-XX-nome/topico-YY-nome/
 └── diario.md
 ```
 
-Não pule etapas desse padrão ao criar um tópico novo.
+Dos Módulos 00 a 06, a pasta `minhas-respostas/typescript/` não é usada — todo o conteúdo desses módulos é só em Python. TypeScript entra a partir do Módulo 07.
+
+Não pule etapas desse padrão ao criar uma aula nova.

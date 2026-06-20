@@ -1,11 +1,17 @@
-# [Nome do Tópico]
+# [Nome da Aula]
 
-**Fase:** [número e nome da fase]
-**Tópico:** [número]
+**Módulo:** [número e nome do módulo]
+**Aula:** [número]
 
 ## Objetivo de aprendizado
 
-[O que o aluno deve conseguir fazer ao final deste tópico.]
+[O que o aluno deve conseguir fazer ao final desta aula.]
+
+## Tópicos desta aula
+
+- [tópico 1]
+- [tópico 2]
+- [tópico 3]
 
 ## Explicação
 
@@ -24,6 +30,8 @@
 ```
 
 ## Exemplo em TypeScript
+
+(omitir esta seção nos Módulos 00 a 06, que são só Python — incluir a partir do Módulo 07)
 
 ```ts
 [exemplo pequeno e direto]
